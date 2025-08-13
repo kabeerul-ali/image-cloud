@@ -1,0 +1,91 @@
+.upload-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.image-frame {
+  margin: 15px auto;
+  border: 5px solid #f0f0f0;
+  border-radius: 15px;
+  padding: 5px;
+  background: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.image-frame img {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.upload-btn,
+.copy-btn,
+.upload-next-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upload-btn:hover,
+.copy-btn:hover,
+.upload-next-btn:hover {
+  background-color: #0056b3;
+}
+
+.copy-btn {
+  background-color: #28a745;
+}
+
+.copy-btn:hover {
+  background-color: #1f7a33;
+}
+
+.upload-next-btn {
+  background-color: #ff9800;
+}
+
+.upload-next-btn:hover {
+  background-color: #e68a00;
+}
+
+.progress-bar {
+  margin-top: 15px;
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.uploaded-url {
+  margin-top: 15px;
+  color: #007bff;
+  word-break: break-all;
+  font-weight: bold;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
